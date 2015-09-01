@@ -1,21 +1,19 @@
-**/.DS_STORE
-
-**/*.exe
-
 **/*.pyc
 **/*.py[cod]
 **/__pycache__
-
-**/*.zip
-
-*.egg
-*.egg-info
+**/*.egg
+**/*.egg-info
 eggs
 develop-eggs
 
+
 target
+
 
 .gradle
 build
 
-out*.txt
+
+**/.DS_STORE
+**/*.zip
+**/*.exe
