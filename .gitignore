@@ -13,6 +13,9 @@
 eggs
 develop-eggs
 
-out*.txt
-
 target
+
+.gradle
+build
+
+out*.txt
