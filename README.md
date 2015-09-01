@@ -1,12 +1,12 @@
-codility
+Codility
 ========
 
 Become a better programmer. Develop your coding skills with our lessons. Take part in our challenges.
 
 
 
-building / running / running tests
-----------------------------------
+Running
+-------
 
 As a variety of different languages have been used in this project (so far Python and Java, but Scala, 
 C++, Ruby, Groovy, and more to come) a number of ways to build and run the code have been provided:
