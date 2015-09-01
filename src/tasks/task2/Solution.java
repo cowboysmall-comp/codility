@@ -29,4 +29,12 @@ public class Solution {
 
         return pos;
     }
+
+    public static void main(String[] args) {
+
+        Solution solution = new Solution();
+        System.out.println(Integer.toString(solution.solution(new int[]{30, 20, 10})));
+        System.out.println(Integer.toString(solution.solution(new int[]{2, 2, 2, 2, 1, 2, -1, 2, 1, 3})));
+        System.out.println(Integer.toString(solution.solution(new int[]{1, 2, 3, 2, 3, 1, 2, 3, 4})));
+    }
 }

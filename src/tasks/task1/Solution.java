@@ -17,4 +17,10 @@ public class Solution {
 
         return min;
     }
+
+    public static void main(String[] args) {
+
+        Solution solution = new Solution();
+        System.out.println(Integer.toString(solution.solution(new int[]{1, 2, 3, 42, 1, -10})));
+    }
 }

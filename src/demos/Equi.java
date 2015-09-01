@@ -27,4 +27,10 @@ public class Equi {
 
         return -1;
     }
+
+    public static void main(String[] args) {
+
+        Equi equi = new Equi();
+        System.out.println(Integer.toString(equi.solution(new int[]{-1, 3, -4, 5, 1, -6, 2, 1})));
+    }
 }
