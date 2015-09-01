@@ -31,19 +31,19 @@
         <resources>
             <resource>
                 <directory>resources</directory>
+                <excludes>
+                    <exclude>keep.txt</exclude>
+                </excludes>
             </resource>
-            <excludes>
-                <exclude>keep.txt</exclude>
-            </excludes>
         </resources>
 
         <testResources>
             <testResource>
                 <directory>resources</directory>
+                <excludes>
+                    <exclude>keep.txt</exclude>
+                </excludes>
             </testResource>
-            <excludes>
-                <exclude>keep.txt</exclude>
-            </excludes>
         </testResources>
 
         <plugins>
