@@ -27,8 +27,16 @@ and to run all tests execute the following:
 
 ### Java
 
-There are two options provided for running Java code: Maven and Gradle. For example, when using Maven to 
-compile and run tests execute the following:
+There are three options for running Java code: SDK, Maven, and Gradle. For example, I would not advise it, 
+but if you wanted to use __javac__ to compile the code you should execute the following:
+
+    javac -d ./target/classes ./src/demos/Equi.java
+
+and if you wanted to use __java__ to run an individual class you should execute the following:
+
+    java -cp ./target/classes demos.Equi
+
+when using Maven to compile and run tests execute the following:
 
     mvn test
 
