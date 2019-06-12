@@ -10,13 +10,9 @@ def solution(S):
         stack = []
         for s in S:
             if s == '+':
-                a = stack.pop()
-                b = stack.pop()
-                stack.append(a + b)
+                stack.append(stack.pop() + stack.pop())
             elif s == '*':
-                a = stack.pop()
-                b = stack.pop()
-                stack.append(a * b)
+                stack.append(stack.pop() * stack.pop())
             else:
                 stack.append(int(s))
 
