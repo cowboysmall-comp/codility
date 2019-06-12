@@ -1,5 +1,8 @@
 import sys
 
+'''
+    https://app.codility.com/c/feedback/NDJ749-X8Y/
+'''
 
 def solution(A, B):
     AA = str(A)
