@@ -17,13 +17,13 @@ public class Solution {
 
             Stack<Integer> stack = new Stack<>();
 
-            for (int i = 0; i < S.length(); i++)
-                if (S.charAt(i) == '+')
+            for (char s : S.toCharArray())
+                if (s == '+')
                     stack.push(stack.pop() + stack.pop());
-                else if (S.charAt(i) == '*')
+                else if (s == '*')
                     stack.push(stack.pop() * stack.pop());
                 else
-                    stack.push(parseInt(valueOf(S.charAt(i))));
+                    stack.push(parseInt(valueOf(s)));
 
             return stack.pop();
 

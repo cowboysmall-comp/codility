@@ -13,11 +13,9 @@ def solution(A, B):
     ZZ  = ''
 
     for i in range(c):
-        ZZ += AA[i]
-        ZZ += BB[i]
+        ZZ += AA[i] + BB[i]
 
-    ZZ += AA[c:]
-    ZZ += BB[c:]
+    ZZ += AA[c:] + BB[c:]
 
     Z  = int(ZZ)
 
