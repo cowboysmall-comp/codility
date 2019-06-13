@@ -30,6 +30,12 @@ def main(argv):
     print(solution("11++"))
     print()
 
+    print(solution(""))
+    print()
+
+    print(solution("12345++++"))
+    print()
+
 
 
 if __name__ == "__main__":

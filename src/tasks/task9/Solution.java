@@ -42,5 +42,11 @@ public class Solution {
 
         System.out.println(solution.solution("11++"));
         System.out.println();
+
+        System.out.println(solution.solution(""));
+        System.out.println();
+
+        System.out.println(solution.solution("12345++++"));
+        System.out.println();
     }
 }
